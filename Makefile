@@ -1,4 +1,4 @@
-FLAGS = -Wall -O2
+FLAGS = -Wall -std=c99 -O2
 
 all: kmercounter
 
