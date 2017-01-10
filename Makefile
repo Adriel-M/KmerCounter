@@ -1,10 +1,10 @@
 CC = gcc
 FLAGS = -Wall -std=c11 -O2
 
-all: freq5
+all: kmercounter
 
-freq5: hash.c parsefile.o FileListGenerator.o freq5.c
-	$(CC) $(FLAGS) parsefile.o hash.c FileListGenerator.o freq5.c -o freq5
+kmercounter: hash.c parsefile.o FileListGenerator.o kmercounter.c
+	$(CC) $(FLAGS) parsefile.o hash.c FileListGenerator.o kmercounter.c -o kmercounter
 
 parsefile.o: parsefile.c
 	$(CC) $(FLAGS) hash.c parsefile.c -c
