@@ -10,12 +10,12 @@ The associated make file has the CC set as GCC. Adjust according to the preferre
 
 `$ ./kmercounter -d <directory path> [-n] <number of processes to use> [-o] <output file>`
 
-`-d: Required to specify the folder path containing sequence reads.`
+-d: Required to specify the folder path containing sequence reads.
 
-`-n: Optional to specify the number of parallel processes to use. If the number of processes is greater than the 
-number of files, will set the number of processes to use to the number of files. Defaults to one if unused.`
+-n: Optional to specify the number of parallel processes to use. If the number of processes is greater than the 
+number of files, will set the number of processes to use to the number of files. Defaults to one if unused.
 
-`-o: Optional to specify the output file. Defaults to stdout if unused.`
+-o: Optional to specify the output file. Defaults to stdout if unused.
 
 # TODO/Future Features
 * Able to specify kmer length (current kmer length is 5)
