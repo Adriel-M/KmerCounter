@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Adriel-M/KmerCounter.svg?branch=master)](https://travis-ci.org/Adriel-M/KmerCounter)
+
 # KmerCounter
 Scan whole sequences (DNA bases for now) and count the number of reads per k-mer.
 
