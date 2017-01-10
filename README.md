@@ -2,9 +2,11 @@
 Scan whole sequences (DNA bases for now) and count the number of reads per k-mer.
 
 # Compiling
-The associated make file has the CC set as GCC. Adjust according to the preferred compiler.
+The associated make file will use your default C compiler via the set CC env.
 
 `$ make all`
+
+`$ make CC=clang all`
 
 # Usage
 

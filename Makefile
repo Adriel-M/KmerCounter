@@ -1,5 +1,4 @@
-CC = gcc
-FLAGS = -Wall -std=c11 -O2
+FLAGS = -Wall -O2
 
 all: kmercounter
 
@@ -13,4 +12,4 @@ FileListGenerator.o: FileListGenerator.c
 	$(CC) $(FLAGS) FileListGenerator.c -c
 
 make clean:
-	rm *.o freq5
+	rm *.o kmercounter
