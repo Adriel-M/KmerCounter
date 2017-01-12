@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0497467c6ad14683abcd81a11bf586b3)](https://www.codacy.com/app/Adriel-M_2/KmerCounter?utm_source=github.com&utm_medium=referral&utm_content=Adriel-M/KmerCounter&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/Adriel-M/KmerCounter.svg?branch=master)](https://travis-ci.org/Adriel-M/KmerCounter)
 
 # KmerCounter
